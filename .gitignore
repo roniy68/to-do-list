@@ -1,0 +1,12 @@
+#ignoring files in node_modules folder if present
+node_modules/
+
+#ignoring hint report folder produced by hint
+hint-report/
+
+#build 
+dist
+#ignoring esLint linter files
+package-lock.json
+
+.DS_Store

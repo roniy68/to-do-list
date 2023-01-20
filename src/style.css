@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: 'MyFont';
+    src: url('./assets/fonts/SecularOne-Regular.ttf') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    font-size: 3rem;
+    color: whitesmoke;
+}
+
+.hello {
+    color: red;
+    font-family: 'MyFont';
+    background: url('assets/drsight.png');
+}
