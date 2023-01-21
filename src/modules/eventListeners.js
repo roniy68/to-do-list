@@ -39,18 +39,21 @@ todoList.addEventListener('click', (e) => {
   }
 });
 
+// Clear completed button
 clearCompletedBtn.addEventListener('click', () => {
   const toDoList = clearCompleted(toDoTasks);
   updateLocalStorage(toDoList);
   renderToDoList(toDoList);
 });
 
+// Add event listener for double click to edit
 todoList.addEventListener('dblclick', (e) => {
   if (e.target.closest('.todo-list-li-text')) {
     editTask(e, toDoTasks);
   }
 });
 
+// Delete a task on click to the cross button
 todoList.addEventListener('click', (e) => {
   if (e.target.closest('.todo-list-li-cross')) {
     deleteTask(e, toDoTasks);

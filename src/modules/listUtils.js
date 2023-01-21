@@ -15,6 +15,7 @@ export const clearCompleted = (toDoListArray) => {
   return toDoListArray;
 };
 
+// Render Todo List
 export const renderToDoList = (toDoListArray) => {
   toDoList.innerHTML = '';
 
@@ -79,6 +80,7 @@ export const deleteTask = (e, toDoListArray) => {
   renderToDoList(toDoListArray);
 };
 
+// Mark Task if completed
 export const markTask = (e, toDoListArray) => {
   const clickedCheckbox = e.target.closest('.todo-list-li-checkbox');
   const clickedTask = clickedCheckbox.nextElementSibling;
