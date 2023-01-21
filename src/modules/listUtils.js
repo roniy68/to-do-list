@@ -7,11 +7,13 @@ export const addTask = (toDoListArray, task) => {
   toDoListArray.push({ task, completed: false, id: toDoListArray.length + 1 });
 };
 
+// Clear Completed
 export const clearCompleted = (toDoListArray) => {
   toDoListArray = toDoListArray.filter((task) => task.completed === false);
   toDoListArray.forEach((task, index) => {
     task.id = index + 1;
   });
+  updateLocalStorage(toDoList);
   return toDoListArray;
 };
 
