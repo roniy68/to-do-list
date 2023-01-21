@@ -2,6 +2,7 @@ import { updateLocalStorage, getLocalStorage } from './localStorage.js';
 
 const toDoList = document.querySelector('.todo-list-ul');
 
+// Function for adding task
 export const addTask = (toDoListArray, task) => {
   toDoListArray.push({ task, completed: false, id: toDoListArray.length + 1 });
 };
@@ -47,7 +48,7 @@ export const renderToDoList = (toDoListArray) => {
     toDoList.appendChild(toDoItem);
   });
 };
-
+// Editting Task
 export const editTask = (e, toDoListArray) => {
   const clickedTask = e.target.closest('.todo-list-li-text');
   clickedTask.disabled = false;
@@ -65,6 +66,7 @@ export const editTask = (e, toDoListArray) => {
   });
 };
 
+// Deleting Task
 export const deleteTask = (e, toDoListArray) => {
   const clickedCross = e.target.closest('.todo-list-li-cross');
   const clickedTask = clickedCross.previousElementSibling;

@@ -17,7 +17,7 @@ body {
   min-width: 300px;
   width: 50%;
   max-width: 1000px;
-  box-shadow: 10px 14px 14px -5px rgba(132, 9, 9, 0.3);
+  box-shadow: 10px 14px 14px -5px rgba(202, 5, 5, 0.3);
 }
 
 .todo-input {
@@ -30,12 +30,12 @@ body {
   width: -webkit-fill-available;
   height: 30px;
   padding: 0 0 0 7px;
-  border: 1px solid rgb(214, 123, 123);
+  border: 1px solid rgb(231, 108, 108);
   margin: 0 14px 0 0;
 }
 
 .task-add-btn {
-  background-color: rgb(9, 146, 80);
+  background-color: rgb(5, 114, 62);
   color: #fff;
   border: none;
   padding: 0 14px;
@@ -44,7 +44,7 @@ body {
 }
 
 .task-add-btn:hover {
-  background-color: #333;
+  background-color: rgb(60, 54, 54);
 }
 
 .todo-list-title {
