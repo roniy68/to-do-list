@@ -48,7 +48,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
->HTML and CSS
+>HTML and CSS with JS
 
 <details>
   <summary>Client</summary>
@@ -60,7 +60,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> THIS IS A SIMPLE TEMPLATE APP FOR NOW
+> THIS IS A SIMPLE TODO APP FOR NOW
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
