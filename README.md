@@ -112,8 +112,9 @@ Clone this repository to your desired folder:
 
 ```sh
   git clone https://github.com/roniy68/to-do-list.git
-  cd hello-world
-  npm install -y
+  cd to-do-list
+  npm install
+  npm start
 ```
 <br><br>
 
@@ -125,7 +126,7 @@ To run the project, execute the following command:
 -install serve with : npm install -g serve
 
 ```sh
-  serve -s .
+  npm build && serve -s ./dist
 ```
 
 
@@ -150,9 +151,6 @@ To run the project, execute the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Ram Kumar Karuppusamy**
-
-- GitHub: [ram1117](https://github.com/ram1117)
 
 👤 **Ahmed Hasan Rony**
 
