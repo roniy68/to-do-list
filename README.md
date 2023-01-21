@@ -48,7 +48,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
->HTML and CSS
+>HTML and CSS with JS
 
 <details>
   <summary>Client</summary>
@@ -60,7 +60,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> THIS IS A SIMPLE TEMPLATE APP FOR NOW
+> THIS IS A SIMPLE TODO APP FOR NOW
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,8 +112,9 @@ Clone this repository to your desired folder:
 
 ```sh
   git clone https://github.com/roniy68/to-do-list.git
-  cd hello-world
-  npm install -y
+  cd to-do-list
+  npm install
+  npm start
 ```
 <br><br>
 
@@ -125,7 +126,7 @@ To run the project, execute the following command:
 -install serve with : npm install -g serve
 
 ```sh
-  serve -s .
+  npm build && serve -s ./dist
 ```
 
 
@@ -150,9 +151,6 @@ To run the project, execute the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Ram Kumar Karuppusamy**
-
-- GitHub: [ram1117](https://github.com/ram1117)
 
 👤 **Ahmed Hasan Rony**
 
